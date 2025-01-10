@@ -8,9 +8,7 @@ app.use(express.json());
 
 // Dados simulados
 let activities = [];
-
-// Importando os dados do JSON
-const analyticsData = require('./analyticsData.json'); 
+let analyticsData = [];
 
 // Configuração da atividade
 app.get('/config', (req, res) => {
@@ -48,21 +46,19 @@ app.post('/deploy', (req, res) => {
 
 // Analytics disponíveis
 app.get('/analytics-list', (req, res) => {
-    res.send(analyticsData);
+    res.send({
+        qualAnalytics: [{ name: "Goal Details", type: "text/plain" }],
+        quantAnalytics: [{ name: "Goals Scored", type: "integer" }]
+    });
 });
+
+const analytics_activity = require('./analyticsData.json'); 
 
 // Obter analytics de uma instância
 app.post('/analytics', (req, res) => {
-    const { activityID } = req.body;
-
-    // Filtrar analytics por activityID
-    const filteredAnalytics = analyticsData.filter(data => data.activityID === activityID);
-
-    if (filteredAnalytics.length === 0) {
-        return res.status(404).send({ error: "Nenhum analytics encontrado para esta atividade." });
-    }
-
-    res.send(filteredAnalytics);
+    const { activityID } = req.body;    
+    const data = analytics_activity.filter(a => a.activityID === activityID);
+    res.send(data);
 });
 
 // Iniciar servidor
