@@ -1,0 +1,98 @@
+[
+    {
+        "activityID": "activity1",
+        "inveniraStdID": "1001",
+        "quantAnalytics": [
+            { "name": "Analytic 1", "type": "boolean", "value": true },
+            { "name": "Analytic 2", "type": "integer", "value": 234 }
+        ],
+        "qualAnalytics": [
+            { "name": "Analytic 3", "type": "text/plain", "value": "Student performed well" },
+            { "name": "Analytic 4", "type": "URL", "value": "http://example.com/analytics/1001" }
+        ]
+    },
+    {
+        "activityID": "activity2",
+        "inveniraStdID": "1002",
+        "quantAnalytics": [
+            { "name": "Analytic 1", "type": "boolean", "value": false },
+            { "name": "Analytic 2", "type": "integer", "value": 120 }
+        ],
+        "qualAnalytics": [
+            { "name": "Analytic 3", "type": "text/plain", "value": "Needs improvement" },
+            { "name": "Analytic 4", "type": "URL", "value": "http://example.com/analytics/1002" }
+        ]
+    },
+    {
+        "activityID": "activity3",
+        "inveniraStdID": "1001",
+        "quantAnalytics": [
+            { "name": "Analytic 1", "type": "boolean", "value": true },
+            { "name": "Analytic 2", "type": "integer", "value": 234 }
+        ],
+        "qualAnalytics": [
+            { "name": "Analytic 3", "type": "text/plain", "value": "Student performed well" },
+            { "name": "Analytic 4", "type": "URL", "value": "http://example.com/analytics/1001" }
+        ]
+    },
+    {
+        "activityID": "activity4",
+        "inveniraStdID": "1002",
+        "quantAnalytics": [
+            { "name": "Analytic 1", "type": "boolean", "value": false },
+            { "name": "Analytic 2", "type": "integer", "value": 120 }
+        ],
+        "qualAnalytics": [
+            { "name": "Analytic 3", "type": "text/plain", "value": "Needs improvement" },
+            { "name": "Analytic 4", "type": "URL", "value": "http://example.com/analytics/1002" }
+        ]
+    },
+    {
+        "activityID": "activity1",
+        "inveniraStdID": "1001",
+        "quantAnalytics": [
+            { "name": "Analytic 1", "type": "boolean", "value": true },
+            { "name": "Analytic 2", "type": "integer", "value": 234 }
+        ],
+        "qualAnalytics": [
+            { "name": "Analytic 3", "type": "text/plain", "value": "Student performed well" },
+            { "name": "Analytic 4", "type": "URL", "value": "http://example.com/analytics/1001" }
+        ]
+    },
+    {
+        "activityID": "activity2",
+        "inveniraStdID": "1002",
+        "quantAnalytics": [
+            { "name": "Analytic 1", "type": "boolean", "value": false },
+            { "name": "Analytic 2", "type": "integer", "value": 120 }
+        ],
+        "qualAnalytics": [
+            { "name": "Analytic 3", "type": "text/plain", "value": "Needs improvement" },
+            { "name": "Analytic 4", "type": "URL", "value": "http://example.com/analytics/1002" }
+        ]
+    },
+    {
+        "activityID": "activity3",
+        "inveniraStdID": "1001",
+        "quantAnalytics": [
+            { "name": "Analytic 1", "type": "boolean", "value": true },
+            { "name": "Analytic 2", "type": "integer", "value": 234 }
+        ],
+        "qualAnalytics": [
+            { "name": "Analytic 3", "type": "text/plain", "value": "Student performed well" },
+            { "name": "Analytic 4", "type": "URL", "value": "http://example.com/analytics/1001" }
+        ]
+    },
+    {
+        "activityID": "activity4",
+        "inveniraStdID": "1002",
+        "quantAnalytics": [
+            { "name": "Analytic 1", "type": "boolean", "value": false },
+            { "name": "Analytic 2", "type": "integer", "value": 120 }
+        ],
+        "qualAnalytics": [
+            { "name": "Analytic 3", "type": "text/plain", "value": "Needs improvement" },
+            { "name": "Analytic 4", "type": "URL", "value": "http://example.com/analytics/1002" }
+        ]
+    }
+]
